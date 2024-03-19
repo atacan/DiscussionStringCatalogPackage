@@ -66,3 +66,12 @@ not found in table Localizable of bundle CFBundle 0x600002c5c000
 
 ## Screenshots
 
+![ScrShot 2024-03-19 at 10 09 37@2x](https://github.com/atacan/DiscussionStringCatalogPackage/assets/765873/c9658eed-9643-4181-9d3e-23f71d819e0f)
+
+![ScrShot 2024-03-19 at 10 10 44@2x](https://github.com/atacan/DiscussionStringCatalogPackage/assets/765873/80c62265-ad28-4d28-bdea-0bf0e901ab80)
+
+![ScrShot 2024-03-19 at 10 03 55@2x](https://github.com/atacan/DiscussionStringCatalogPackage/assets/765873/05fc5781-340a-47a7-998a-8e5db3349f31)
+
+![ScrShot 2024-03-19 at 10 04 22@2x](https://github.com/atacan/DiscussionStringCatalogPackage/assets/765873/74d9b2d5-b347-4ff4-95b5-06e49dc4b5c7)
+
+![ScrShot 2024-03-19 at 10 05 22@2x](https://github.com/atacan/DiscussionStringCatalogPackage/assets/765873/9b97a011-1ad3-468e-9dc8-da2ec57edd5a)
