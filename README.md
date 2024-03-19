@@ -65,6 +65,11 @@ not found in table Localizable of bundle CFBundle 0x600002c5c000
 
 - The same result as Scenario One
 
+## Scenario Three: The Swift package and the app have a string catalog. But the app has a `Text` view, and its text is localized
+
+- The text from the app is correctly shown in German
+- Only the text from the package that uses `Bundle.module` is shown in German. The other texts are shown non-localised.
+
 ## Screenshots
 
 ![ScrShot 2024-03-19 at 10 09 37@2x](https://github.com/atacan/DiscussionStringCatalogPackage/assets/765873/c9658eed-9643-4181-9d3e-23f71d819e0f)

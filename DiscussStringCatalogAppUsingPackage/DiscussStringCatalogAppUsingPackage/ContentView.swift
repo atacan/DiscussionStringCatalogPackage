@@ -8,7 +8,10 @@ import DiscussionStringCatalogPackage
 
 struct ContentView: View {
     var body: some View {
-        DiscussionStringCatalogPackage.ContentView()
+        VStack(alignment: .leading) {
+            Text("This is a text in the app, not in the package.")
+            DiscussionStringCatalogPackage.ContentView()
+        } // <-VStack
     }
 }
 

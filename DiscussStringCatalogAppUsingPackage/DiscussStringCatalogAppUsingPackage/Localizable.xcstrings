@@ -1,7 +1,16 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-
+    "This is a text in the app, not in the package." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dies ist ein Text in der App, nicht in der Swift Package."
+          }
+        }
+      }
+    }
   },
   "version" : "1.0"
 }
