@@ -2,6 +2,7 @@
 
 - This project is created to discuss the string catalog usage in a Swift package and an app target.
 - An app using this package is created inside DiscussStringCatalogAppUsingPackage. You can use it for reproduction of the problem.
+- The package was dragged own drop to the Xcode project as local swift package.
 - Xcode Version 15.3 (15E204a)
 - macOS 14.4 (23E214)
 
