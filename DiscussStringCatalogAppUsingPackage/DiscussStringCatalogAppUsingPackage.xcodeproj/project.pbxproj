@@ -12,6 +12,7 @@
 		793078B42BA9836600F1864D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 793078B32BA9836600F1864D /* Assets.xcassets */; };
 		793078B82BA9836600F1864D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 793078B72BA9836600F1864D /* Preview Assets.xcassets */; };
 		793078C12BA9839700F1864D /* DiscussionStringCatalogPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 793078C02BA9839700F1864D /* DiscussionStringCatalogPackage */; };
+		793078C32BA98AA800F1864D /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 793078C22BA98AA800F1864D /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		793078B52BA9836600F1864D /* DiscussStringCatalogAppUsingPackage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiscussStringCatalogAppUsingPackage.entitlements; sourceTree = "<group>"; };
 		793078B72BA9836600F1864D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		793078BE2BA9838C00F1864D /* DiscussionStringCatalogPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DiscussionStringCatalogPackage; path = ..; sourceTree = "<group>"; };
+		793078C22BA98AA800F1864D /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				793078B32BA9836600F1864D /* Assets.xcassets */,
 				793078B52BA9836600F1864D /* DiscussStringCatalogAppUsingPackage.entitlements */,
 				793078B62BA9836600F1864D /* Preview Content */,
+				793078C22BA98AA800F1864D /* Localizable.xcstrings */,
 			);
 			path = DiscussStringCatalogAppUsingPackage;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = 793078A32BA9836500F1864D;
 			productRefGroup = 793078AD2BA9836500F1864D /* Products */;
@@ -144,6 +148,7 @@
 			files = (
 				793078B82BA9836600F1864D /* Preview Assets.xcassets in Resources */,
 				793078B42BA9836600F1864D /* Assets.xcassets in Resources */,
+				793078C32BA98AA800F1864D /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

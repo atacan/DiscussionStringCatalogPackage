@@ -1,3 +1,8 @@
+## Introduction
+
+- This project is created to discuss the string catalog usage in a Swift package and an app target.
+- An app using this package is created inside DiscussStringCatalogAppUsingPackage. You can use it for reproduction of the problem.
+
 ## Scenario One: The Swift package has a string catalog and the app target does not
 
 - The target in the Package.swift file has `resources: [.process("Resources")]`. This Resources folder has a string catalog.
@@ -25,7 +30,7 @@ not found in table Localizable of bundle CFBundle 0x6000024f5a40
             - Localizable.strings
 ```
 
-- The Localizable.strings file has the German translations
+- The Localizable.strings file has the German translations:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -41,3 +46,18 @@ not found in table Localizable of bundle CFBundle 0x6000024f5a40
 </dict>
 </plist>
 ```
+
+- For the text that doesn't have bounded medial ex cot shows this warning
+
+```console
+ERROR: Hello, world! 
+not found in table Localizable of bundle CFBundle 0x600002c5c000 
+</Users/atacan/Library/Developer/Xcode/DerivedData/DiscussStringCatalogAppUsingPackage-djgqsvpidusfvabiivpoothnzbus/Build/Products/Debug/DiscussStringCatalogAppUsingPackage.app> 
+(executable, loaded)
+```
+
+- The difference is that it looks at the app bundle instead of the package bundle as above, which is fine.
+
+## Scenario Two: The Swift package and the app have a string catalog
+
+- The same result as Scenario One
