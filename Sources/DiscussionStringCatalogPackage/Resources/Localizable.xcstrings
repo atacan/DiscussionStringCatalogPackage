@@ -1,0 +1,36 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Hello, world!" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hallo, Welt!"
+          }
+        }
+      }
+    },
+    "This is a text originally written in English" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieser Text wurde ursprünglich auf Englisch verfasst."
+          }
+        }
+      }
+    },
+    "this text has a German translation in the catalog" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "dieser Text hat eine deutsche Übersetzung im Katalog"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
