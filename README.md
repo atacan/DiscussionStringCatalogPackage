@@ -19,7 +19,7 @@
 ```console
 ERROR: this text has a German translation in the catalog 
 not found in table Localizable of bundle CFBundle 0x6000024f5a40 
-<~/Library/Developer/Xcode/DerivedData/DiscussStringCatalogAppUsingPackage-djgqsvpidusfvabiivpoothnzbus/Build/Products/Debug/DiscussStringCatalogAppUsingPackage.app/Contents/Resources/DiscussionStringCatalogPackage_DiscussionStringCatalogPackage.bundle> 
+</Users/atacan/Library/Developer/Xcode/DerivedData/DiscussStringCatalogAppUsingPackage-djgqsvpidusfvabiivpoothnzbus/Build/Products/Debug/DiscussStringCatalogAppUsingPackage.app/Contents/Resources/DiscussionStringCatalogPackage_DiscussionStringCatalogPackage.bundle> 
 (not loaded)
 ```
 
