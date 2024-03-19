@@ -2,6 +2,8 @@
 
 - This project is created to discuss the string catalog usage in a Swift package and an app target.
 - An app using this package is created inside DiscussStringCatalogAppUsingPackage. You can use it for reproduction of the problem.
+- Xcode Version 15.3 (15E204a)
+- macOS 14.4 (23E214)
 
 ## Scenario One: The Swift package has a string catalog and the app target does not
 
@@ -61,3 +63,6 @@ not found in table Localizable of bundle CFBundle 0x600002c5c000
 ## Scenario Two: The Swift package and the app have a string catalog
 
 - The same result as Scenario One
+
+## Screenshots
+
