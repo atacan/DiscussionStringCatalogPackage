@@ -50,7 +50,7 @@ not found in table Localizable of bundle CFBundle 0x6000024f5a40
 </plist>
 ```
 
-- For the text that doesn't have Bundle.module Xcode shows this warning
+- For the text that doesn't have Bundle.module, Xcode shows this warning
 
 ```console
 ERROR: Hello, world! 
